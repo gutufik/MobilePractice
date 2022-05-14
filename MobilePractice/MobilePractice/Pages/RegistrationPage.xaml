@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilePractice.Pages.RegistrationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout >
+                <Label Text="Name"/>
+                <Entry x:Name="etrName" Placeholder="Name"/>
+                <Label Text="Login"/>
+                <Entry x:Name="etrLogin" Placeholder="Login"/>
+                <Label Text="Password"/>
+                <Entry x:Name="etrPassword" 
+                   IsPassword="True" Placeholder="Login"/>
+                <Button Text="Register" x:Name="btnRegister" Clicked="btnRegister_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
