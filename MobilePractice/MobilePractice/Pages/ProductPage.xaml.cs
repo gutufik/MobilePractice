@@ -15,6 +15,7 @@ namespace MobilePractice.Pages
         public ProductPage()
         {
             InitializeComponent();
+            Date.MinimumDate = DateTime.Now;
         }
 
         private void Button_Clicked(object sender, EventArgs e)
